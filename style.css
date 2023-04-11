@@ -1,23 +1,38 @@
 .cabecalho{
-    background-color:gold;
-    color: #ffbb00;
+    background-color: rgb(36, 13, 43);
+    color: rgb(255, 255, 255);
     display: flex;
-    justify-content :space-around;
+    justify-content: space-around;
 }
 
-.cabecalho-imagem {
+.cabecalho-imagem{ 
     width: 20%;
 }
 
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 16px;      
     padding: 24px 0;
     font-size: 24px;
-}
+}   
 
 * {
- margin: 0;
- padding: 0;
+    margin: 0 16px;      
+    padding: 24px 0;
+}
 
+.imagem-escola {
+    width: 20%;
+}
+
+.escola {
+    background-image: linear-gradient(#383D58,#380066);
+    color:white;
+    display: flex;
+}
+
+.escola-conteudo{
+    width: 35%;
+    justify-content: center;
+    align-items: center;
 }
